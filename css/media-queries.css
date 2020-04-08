@@ -53,11 +53,25 @@ li {
 }
 
 .main {
-
+    width: 87%;
+    margin: auto;
+}
+h2 {
+    margin-bottom: 0;
 }
 
 .sub-section {
-
+    font-style: italic;
+    width: 87%;
+    margin: auto;
+}
+footer {
+    width: 87%;
+    margin: auto;
+}
+footer p {
+    margin-top: 5em;
+    font-size: 12px;
 }
 
 #social-media-links {
