@@ -127,8 +127,24 @@ footer p {
     }
 
     footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
         clear: left;
         margin-top: 25em;
         width: 100%;
+    }
+    footer div {
+        margin-bottom: 8px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+
+    }
+    a:hover {
+        font-size: 4em;
+        color: hotpink;
+        transition: ease .3s;
     }
 }
