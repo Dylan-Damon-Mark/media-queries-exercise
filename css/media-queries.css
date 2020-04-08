@@ -1,0 +1,44 @@
+.alert-info {
+    background-color: #CBFDFD;
+    border: solid #D5DBDB 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.alert-info>a {
+    text-decoration: none;
+    color: black;
+    margin: 1em;
+}
+
+h1 {
+    margin-left: calc(50% - 2.1em);
+    margin-top: 0;
+    font-size: 4em;
+}
+
+.nav-links {
+
+}
+
+.header-img {
+
+}
+
+.main {
+
+}
+
+.sub-section {
+
+}
+
+#social-media-links {
+
+}
+
+@media screen and (min-width:500px) {
+
+}
