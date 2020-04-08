@@ -67,18 +67,23 @@ h2 {
     margin: auto;
 }
 footer {
+    display: flex;
     width: 87%;
     margin: auto;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 footer p {
     margin-top: 5em;
     font-size: 12px;
 }
-
-#social-media-links {
-
+footer div {
+    margin-bottom: 8px;
 }
-
+div a {
+    text-decoration: none;
+    color: black;
+}
 @media screen and (min-width:500px) {
     .hidden-on-desktop {
         display: none;
@@ -142,7 +147,7 @@ footer p {
         color: black;
 
     }
-    a:hover {
+    .social:hover {
         font-size: 4em;
         color: hotpink;
         transition: ease .3s;
